@@ -1,101 +1,191 @@
 personal:
   name: "Syed Nazmus Sakib"
-  email: "nazmussak.work@google.com"
+  email: "nazmussak.work@gmail.com"
   phone: "+8801634855705"
   location: "Chittagong, Bangladesh"
-  linkedin: "linkedin.com/in/yourprofile"
+  linkedin: "linkedin.com/in/syed-nazmus-sakib-85a355253"
   github: "github.com/sakib-101-git"
-  portfolio: "yourportfolio.dev"
-
+  portfolio: "yourportfolio.dev"  # https://github.com/sakib-101-git/Portfolio github link which is not live yet
+  
 summary_pool:
-  - text: "Backend engineer with X years of experience building scalable Python services. Proficient in Django, FastAPI, PostgreSQL, and cloud deployments. Shipped production systems handling Xk+ requests/day."
-    tags: [python, backend, django, fastapi, general]
-  - text: "Full-stack developer experienced in Python backends and React frontends. Built end-to-end SaaS features from database design to UI. Strong focus on clean architecture and automated testing."
-    tags: [fullstack, python, react, saas]
-  - text: "Python developer specializing in data pipelines and automation. Experience with pandas, Airflow, PostgreSQL, and building internal tools that reduced manual work by X%."
-    tags: [python, data, automation, etl]
+  - text: "CS student and full-stack developer at East Delta University building TypeScript/Next.js web applications that solve real-world problems in Bangladesh. Focused on clean architecture, responsive UI, and shipping things people actually use."
+    tags: [fullstack, typescript, nextjs, web, general]
+  - text: "Software engineer and ML researcher specialising in geospatial intelligence and remote sensing. Contributing to research on high-resolution urban vegetation prediction using satellite embeddings and explainable ensemble ML models across rapidly urbanising Bangladeshi cities."
+    tags: [ml, research, geospatial, remote-sensing, python]
+  - text: "Full-stack developer with strong TypeScript/Next.js skills and a research background in ML and satellite data. Shipped 4 real-world products and contributed to academic work targeting study-abroad applications in Europe."
+    tags: [fullstack, typescript, ml, research, internship]
 
 experience:
-  - company: "Company Name"
-    role: "Software Engineer"
-    dates: "Jan 2023 – Present"
-    location: "Dhaka, Bangladesh"
+  - company: "East Delta University — Erudition Club"
+    role: "Sub-Executive & Event Host"
+    dates: "2023 – Present"
+    location: "Chittagong, Bangladesh"
     bullets:
-      - text: "Built REST API using FastAPI serving 50,000+ requests/day with sub-100ms p95 latency"
-        tags: [python, fastapi, backend, api, performance, scale]
-      - text: "Designed PostgreSQL schema for multi-tenant application supporting 200+ organizations"
-        tags: [sql, postgres, database, architecture, multitenancy]
-      - text: "Implemented CI/CD pipeline using GitHub Actions, reducing deployment time from 2 hours to 15 minutes"
-        tags: [devops, ci-cd, github-actions, automation]
-      - text: "Wrote comprehensive test suite (pytest) achieving 90% code coverage across 3 microservices"
-        tags: [python, testing, pytest, quality]
-      - text: "Integrated third-party payment gateway (bKash/SSLCommerz) processing 10,000+ monthly transactions"
-        tags: [python, payments, integration, fintech]
-      - text: "Mentored 2 junior developers through code reviews and pair programming sessions"
-        tags: [leadership, mentoring, teamwork]
+      - text: "Hosted 2 successful speech events and 2 competitions as part of the university's premier academic club"
+        tags: [leadership, communication, events]
+      - text: "Led teams across multiple sectors within the club, coordinating planning and execution for campus programmes"
+        tags: [leadership, teamwork, coordination]
 
-  - company: "Previous Company"
-    role: "Junior Developer"
-    dates: "Jun 2021 – Dec 2022"
-    location: "Dhaka, Bangladesh"
+  - company: "Research Collaboration (Remote Sensing & Geospatial)"
+    role: "Research Contributor"
+    dates: "2024 – Present"
+    location: "Chittagong, Bangladesh"
     bullets:
-      - text: "Developed Django web application for inventory management used by 50+ warehouse staff"
-        tags: [python, django, fullstack, inventory]
-      - text: "Optimized slow database queries reducing page load times by 60%"
-        tags: [sql, postgres, performance, optimization]
+      - text: "Co-authored the introduction section of the paper 'High Resolution Urban Vegetation Prediction Using Satellite Embeddings and Explainable Ensemble Machine Learning in Rapidly Urbanizing Cities of Bangladesh'"
+        tags: [ml, research, geospatial, remote-sensing, python, writing]
+      - text: "Currently engaged in geospatial data collection and preprocessing pipelines for ongoing urban analytics research"
+        tags: [python, data, geospatial, remote-sensing]
+      - text: "Reviews and synthesises ML research papers on remote sensing, satellite embeddings, and ensemble modelling; translates insights into hands-on experimentation and model optimisation"
+        tags: [ml, research, python, optimisation]
 
 projects:
-  - name: "Project Name"
-    url: "github.com/you/project"
+  - name: "TurfCTG"
+    url: "github.com/sakib-101-git/TurfCTG"
+    description: "Football turf venue directory for Chattogram, Bangladesh — browse, search, filter, and contact 28 verified venues sourced from Google Maps"
     bullets:
-      - text: "Built a real-time chat application using Django Channels and WebSockets"
-        tags: [python, django, websockets, realtime]
-      - text: "Implemented JWT-based authentication system with refresh token rotation"
-        tags: [python, auth, jwt, security]
+      - text: "Built a full Next.js 14 (App Router) directory app covering 28 verified turf venues in Chattogram with search, filter by sport/rating, sort, and detail pages"
+        tags: [typescript, nextjs, tailwind, fullstack, web]
+      - text: "Integrated Framer Motion animations, shadcn/ui components, and TanStack Query v5; optimised for mobile-first responsive layout"
+        tags: [typescript, react, ui, performance]
+      - text: "Implemented one-tap phone call CTA and direct Google Maps link on each venue page, making the tool genuinely useful for end users"
+        tags: [ux, web, mobile]
 
-  - name: "Another Project"
-    url: "github.com/you/another"
+  - name: "EDU ClassRepo"
+    url: "github.com/sakib-101-git/EDU-ClassRepo"
+    description: "Academic resource-sharing platform for East Delta University students — centralises course notes and materials"
     bullets:
-      - text: "Automated data scraping pipeline processing 10,000+ records daily with error recovery"
-        tags: [python, scraping, automation, data]
+      - text: "Developed and deployed a Next.js note-sharing platform used by university students to organise and access course materials"
+        tags: [typescript, nextjs, fullstack, education]
+      - text: "Led a full frontend redesign to modernise the UI with EDU's maroon and gold brand identity, responsive across mobile and desktop"
+        tags: [typescript, tailwind, ui, responsive]
+
+  - name: "Foshol Bachao"
+    url: "github.com/sakib-101-git/Foshol-Bachao"
+    description: "Agricultural web app addressing real-world crop protection and farming challenges in Bangladesh"
+    bullets:
+      - text: "Built a JavaScript-based web application targeting farmers in Bangladesh with practical tools to help protect crops"
+        tags: [javascript, web, agriculture, bangladesh]
+
+  - name: "Taj"
+    url: "github.com/sakib-101-git/Taj"
+    description: "TypeScript web project solving a real-world problem domain"
+    bullets:
+      - text: "Developed with TypeScript/Next.js as part of a suite of real-world problem-solving projects"
+        tags: [typescript, nextjs, fullstack]
+
+  - name: "Portfolio Website"
+    url: "github.com/sakib-101-git/Portfolio"
+    description: "Personal portfolio showcasing projects, research, and skills — built with TypeScript/Next.js"
+    bullets:
+      - text: "Designed and developed a minimalist, typography-driven portfolio inspired by top engineer and researcher portfolios; dark mode, search, and analytics included"
+        tags: [typescript, nextjs, tailwind, design, portfolio]
+      - text: "Seeded with live project data, milestones tracker, and a blog with Postgres full-text search"
+        tags: [typescript, postgres, fullstack]
+
+  - name: "Job Hunt Automation System"
+    url: "github.com/sakib-101-git"
+    description: "Semi-automated job application assistant monitoring BD job portals, scoring listings, tailoring CV with LLM, and notifying via Telegram"
+    bullets:
+      - text: "Designed a Python pipeline that scrapes BDJobs and similar portals, scores job listings against a skills profile using the Claude API, and sends actionable Telegram notifications"
+        tags: [python, automation, llm, claude-api, telegram, scraping]
+      - text: "Built LLM-powered CV tailoring module that rewrites CV content to emphasise relevant skills for each job description; outputs LaTeX-compiled PDF"
+        tags: [python, llm, claude-api, latex, automation]
 
 skills:
   languages:
-    - name: "Python"
-      keywords: [Django, FastAPI, Flask, pandas, SQLAlchemy, Celery, pytest]
+    - name: "TypeScript / JavaScript"
+      keywords: [Next.js, React, Node.js, Tailwind CSS, Framer Motion, shadcn/ui, TanStack Query]
       proficiency: "advanced"
-    - name: "JavaScript/TypeScript"
-      keywords: [React, Next.js, Node.js, Express]
+    - name: "Python"
+      keywords: [Django, FastAPI, pandas, scikit-learn, NumPy, Celery, pytest, web scraping]
+      proficiency: "intermediate-advanced"
+    - name: "C++"
+      keywords: [LeetCode, competitive programming, data structures, algorithms]
       proficiency: "intermediate"
     - name: "SQL"
-      keywords: [PostgreSQL, MySQL, SQLite]
-      proficiency: "advanced"
+      keywords: [PostgreSQL, SQLite, Prisma ORM]
+      proficiency: "intermediate"
 
   tools:
+    - Git / GitHub
     - Docker
-    - Git
-    - GitHub Actions
+    - Vercel
     - Linux
-    - Nginx
+    - GitHub Actions
+    - Prisma
     - Redis
-    - AWS (EC2, S3, RDS)
+    - Claude API / Anthropic SDK
+
+  ml_and_research:
+    - Satellite imagery analysis (remote sensing)
+    - Geospatial data processing
+    - Ensemble machine learning (XGBoost, Random Forest)
+    - Explainable AI (XAI)
+    - Embeddings and vector representations
+    - Model optimisation and fine-tuning
+    - Research paper reading, review, and writing
+    - RAG (Retrieval-Augmented Generation) systems
 
   soft_skills:
-    - "Collaborative team player with experience in agile/scrum environments"
-    - "Strong written and verbal communication"
+    - Fast learner — picks up new concepts quickly and translates them into working solutions
+    - Focused, hardworking, and detail-oriented
+    - Strong written and verbal communication (English and Bengali)
+    - Event hosting and public speaking
+    - Collaborative team player; experienced in leading club sub-teams
 
 education:
-  - institution: "University Name"
+  - institution: "East Delta University (EDU)"
+    url: "eastdelta.edu.bd"
     degree: "BSc in Computer Science and Engineering"
-    dates: "2017 – 2021"
-    gpa: "3.XX / 4.00"
+    dates: "2021 – Present (expected graduation ~2026)"
+    cgpa: "3.74 / 4.00"
+    semester: "8th semester (of 12)"  # At time of last update; 4 semesters remaining
     highlights:
-      - "Relevant coursework: Data Structures, Algorithms, Database Systems, Software Engineering"
+      - "Dean's List: 6 semesters"
+      - "VC's List: 1 semester"
+      - "Sub-Executive, EDU Erudition Club"
+      - "Participated in Hackfest 2025"
+      - "Participated in MERAKI Season-18"
+      - "Hosted 2 speech events and 2 competitions as club event host"
+      - "Relevant coursework: Data Structures & Algorithms, Database Systems, Software Engineering, Machine Learning"
 
-certifications:
-  - name: "AWS Certified Cloud Practitioner"
-    year: 2023
+  - institution: "SSC / HSC"
+    degree: "Secondary and Higher Secondary Certificate"
+    highlights:
+      - "SSC GPA: 5.00 / 5.00"
+      - "HSC GPA: 5.00 / 5.00"
+
+research:
+  - title: "High Resolution Urban Vegetation Prediction Using Satellite Embeddings and Explainable Ensemble Machine Learning in Rapidly Urbanizing Cities of Bangladesh"
+    role: "Co-author (Introduction section)"
+    status: "In progress / manuscript stage"
+    description: "Research on predicting urban vegetation cover at high resolution using satellite image embeddings and explainable ensemble ML models, with Bangladesh's rapidly urbanising cities as the testbed. Emphasises explainability — systems must be interpretable, not just accurate."
+    tags: [remote-sensing, satellite, ml, xai, geospatial, urban-analytics, bangladesh]
+
+goals:
+  short_term:
+    - "Land a software engineering or ML internship"
+    - "Ship and deploy the job-hunt automation pipeline"
+    - "Publish or submit the urban vegetation ML research paper"
+    - "Reach 100+ LeetCode problems solved in C++"
+  long_term:
+    - "Study abroad for a Master's degree in Europe (target countries: Sweden — KTH/Chalmers/Uppsala; Netherlands — TU Delft; Belgium — KU Leuven)"
+    - "Become a backend engineer proficient in Python/Django at production scale"
+    - "Build a micro-SaaS product with real revenue"
+
+personal_interests:
+  - Travelling and exploring new places
+  - Football (outdoor)
+  - Cricket (outdoor)
+  - Badminton (outdoor)
+  - Chess (indoor)
 
 languages_spoken:
   - Bengali (native)
   - English (professional proficiency)
+
+social:
+  linkedin: "linkedin.com/in/syed-nazmus-sakib-85a355253"
+  github: "github.com/sakib-101-git"
+  facebook: "facebook.com/nnazmussakibb"
+  email: "nazmussak.work@gmail.com"
