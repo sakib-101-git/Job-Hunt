@@ -1,0 +1,32 @@
+personal:
+  name: "Your Name"
+  email: "your@email.com"
+  phone: "+880-XXX-XXXXXXX"
+  location: "Dhaka, Bangladesh"
+  linkedin: "https://linkedin.com/in/yourprofile"
+  github: "https://github.com/yourusername"
+
+summary: >
+  Software engineer with X years of experience in backend development,
+  specializing in Python and distributed systems.
+
+experience:
+  - company: "Company Name"
+    title: "Software Engineer"
+    start: "2022-01"
+    end: "present"
+    bullets:
+      - "Built and maintained RESTful APIs serving 1M+ requests/day"
+      - "Reduced query latency by 40% through database indexing"
+
+education:
+  - institution: "University Name"
+    degree: "B.Sc. in Computer Science"
+    year: 2021
+
+skills:
+  languages: ["Python", "Go", "JavaScript"]
+  frameworks: ["FastAPI", "Django", "React"]
+  tools: ["PostgreSQL", "Redis", "Docker", "AWS"]
+
+certifications: []
