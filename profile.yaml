@@ -1,32 +1,101 @@
 personal:
-  name: "Your Name"
-  email: "your@email.com"
-  phone: "+880-XXX-XXXXXXX"
-  location: "Dhaka, Bangladesh"
-  linkedin: "https://linkedin.com/in/yourprofile"
-  github: "https://github.com/yourusername"
+  name: "Syed Nazmus Sakib"
+  email: "nazmussak.work@google.com"
+  phone: "+8801634855705"
+  location: "Chittagong, Bangladesh"
+  linkedin: "linkedin.com/in/yourprofile"
+  github: "github.com/sakib-101-git"
+  portfolio: "yourportfolio.dev"
 
-summary: >
-  Software engineer with X years of experience in backend development,
-  specializing in Python and distributed systems.
+summary_pool:
+  - text: "Backend engineer with X years of experience building scalable Python services. Proficient in Django, FastAPI, PostgreSQL, and cloud deployments. Shipped production systems handling Xk+ requests/day."
+    tags: [python, backend, django, fastapi, general]
+  - text: "Full-stack developer experienced in Python backends and React frontends. Built end-to-end SaaS features from database design to UI. Strong focus on clean architecture and automated testing."
+    tags: [fullstack, python, react, saas]
+  - text: "Python developer specializing in data pipelines and automation. Experience with pandas, Airflow, PostgreSQL, and building internal tools that reduced manual work by X%."
+    tags: [python, data, automation, etl]
 
 experience:
   - company: "Company Name"
-    title: "Software Engineer"
-    start: "2022-01"
-    end: "present"
+    role: "Software Engineer"
+    dates: "Jan 2023 – Present"
+    location: "Dhaka, Bangladesh"
     bullets:
-      - "Built and maintained RESTful APIs serving 1M+ requests/day"
-      - "Reduced query latency by 40% through database indexing"
+      - text: "Built REST API using FastAPI serving 50,000+ requests/day with sub-100ms p95 latency"
+        tags: [python, fastapi, backend, api, performance, scale]
+      - text: "Designed PostgreSQL schema for multi-tenant application supporting 200+ organizations"
+        tags: [sql, postgres, database, architecture, multitenancy]
+      - text: "Implemented CI/CD pipeline using GitHub Actions, reducing deployment time from 2 hours to 15 minutes"
+        tags: [devops, ci-cd, github-actions, automation]
+      - text: "Wrote comprehensive test suite (pytest) achieving 90% code coverage across 3 microservices"
+        tags: [python, testing, pytest, quality]
+      - text: "Integrated third-party payment gateway (bKash/SSLCommerz) processing 10,000+ monthly transactions"
+        tags: [python, payments, integration, fintech]
+      - text: "Mentored 2 junior developers through code reviews and pair programming sessions"
+        tags: [leadership, mentoring, teamwork]
+
+  - company: "Previous Company"
+    role: "Junior Developer"
+    dates: "Jun 2021 – Dec 2022"
+    location: "Dhaka, Bangladesh"
+    bullets:
+      - text: "Developed Django web application for inventory management used by 50+ warehouse staff"
+        tags: [python, django, fullstack, inventory]
+      - text: "Optimized slow database queries reducing page load times by 60%"
+        tags: [sql, postgres, performance, optimization]
+
+projects:
+  - name: "Project Name"
+    url: "github.com/you/project"
+    bullets:
+      - text: "Built a real-time chat application using Django Channels and WebSockets"
+        tags: [python, django, websockets, realtime]
+      - text: "Implemented JWT-based authentication system with refresh token rotation"
+        tags: [python, auth, jwt, security]
+
+  - name: "Another Project"
+    url: "github.com/you/another"
+    bullets:
+      - text: "Automated data scraping pipeline processing 10,000+ records daily with error recovery"
+        tags: [python, scraping, automation, data]
+
+skills:
+  languages:
+    - name: "Python"
+      keywords: [Django, FastAPI, Flask, pandas, SQLAlchemy, Celery, pytest]
+      proficiency: "advanced"
+    - name: "JavaScript/TypeScript"
+      keywords: [React, Next.js, Node.js, Express]
+      proficiency: "intermediate"
+    - name: "SQL"
+      keywords: [PostgreSQL, MySQL, SQLite]
+      proficiency: "advanced"
+
+  tools:
+    - Docker
+    - Git
+    - GitHub Actions
+    - Linux
+    - Nginx
+    - Redis
+    - AWS (EC2, S3, RDS)
+
+  soft_skills:
+    - "Collaborative team player with experience in agile/scrum environments"
+    - "Strong written and verbal communication"
 
 education:
   - institution: "University Name"
-    degree: "B.Sc. in Computer Science"
-    year: 2021
+    degree: "BSc in Computer Science and Engineering"
+    dates: "2017 – 2021"
+    gpa: "3.XX / 4.00"
+    highlights:
+      - "Relevant coursework: Data Structures, Algorithms, Database Systems, Software Engineering"
 
-skills:
-  languages: ["Python", "Go", "JavaScript"]
-  frameworks: ["FastAPI", "Django", "React"]
-  tools: ["PostgreSQL", "Redis", "Docker", "AWS"]
+certifications:
+  - name: "AWS Certified Cloud Practitioner"
+    year: 2023
 
-certifications: []
+languages_spoken:
+  - Bengali (native)
+  - English (professional proficiency)
