@@ -82,14 +82,28 @@ projects:
       - text: "Seeded with live project data, milestones tracker, and a blog with Postgres full-text search"
         tags: [typescript, postgres, fullstack]
 
-  - name: "Job Hunt Automation System"
-    url: "github.com/sakib-101-git"
-    description: "Semi-automated job application assistant monitoring BD job portals, scoring listings, tailoring CV with LLM, and notifying via Telegram"
+  - name: "EDU Shuttle Tracker"
+    url: "github.com/sakib-101-git/EDU-Shuttle-Tracker"
+    description: "Real-time university shuttle bus tracking application for East Delta University students"
     bullets:
-      - text: "Designed a Python pipeline that scrapes BDJobs and similar portals, scores job listings against a skills profile using the Claude API, and sends actionable Telegram notifications"
-        tags: [python, automation, llm, claude-api, telegram, scraping]
-      - text: "Built LLM-powered CV tailoring module that rewrites CV content to emphasise relevant skills for each job description; outputs LaTeX-compiled PDF"
-        tags: [python, llm, claude-api, latex, automation]
+      - text: "Built a shuttle-tracking app so students can follow campus bus locations and plan their commute in real time"
+        tags: [web, fullstack, realtime, education, bangladesh]
+
+  - name: "CSES Problem Set Solutions"
+    url: "github.com/sakib-101-git/CSES-solutions"
+    description: "Personal solutions to the CSES competitive-programming problem set"
+    bullets:
+      - text: "Maintains a growing collection of solved CSES algorithmic problems, strengthening data structures and algorithm skills in C++"
+        tags: [cpp, algorithms, data-structures, competitive-programming]
+
+  - name: "Job Hunt Automation System"
+    url: "github.com/sakib-101-git/Job-Hunt"
+    description: "Automated job-search assistant that scrapes worldwide remote job boards, scores listings against a skills profile with an LLM, and sends Telegram alerts"
+    bullets:
+      - text: "Designed a Python pipeline that scrapes multiple global remote job boards (Remotive, RemoteOK, We Work Remotely, Jobicy, The Muse, Working Nomads), deduplicates, and filters for entry-level remote roles"
+        tags: [python, automation, scraping, api-integration]
+      - text: "Built an LLM scoring stage (Groq) that rates each listing 0-10 for fit and pushes actionable Telegram notifications with inline action buttons"
+        tags: [python, llm, groq, telegram, automation]
 
 skills:
   languages:
@@ -114,7 +128,7 @@ skills:
     - GitHub Actions
     - Prisma
     - Redis
-    - Claude API / Anthropic SDK
+    - Groq API / LLM Integration
 
   ml_and_research:
     - Satellite imagery analysis (remote sensing)
@@ -138,7 +152,7 @@ education:
     url: "eastdelta.edu.bd"
     degree: "BSc in Computer Science and Engineering"
     dates: "2021 – Present (expected graduation ~2026)"
-    cgpa: "3.74 / 4.00"
+    gpa: "3.74 / 4.00"
     semester: "8th semester (of 12)"  # At time of last update; 4 semesters remaining
     highlights:
       - "Dean's List: 6 semesters"
@@ -151,6 +165,7 @@ education:
 
   - institution: "SSC / HSC"
     degree: "Secondary and Higher Secondary Certificate"
+    dates: "2019 – 2021"
     highlights:
       - "SSC GPA: 5.00 / 5.00"
       - "HSC GPA: 5.00 / 5.00"
@@ -164,7 +179,8 @@ research:
 
 goals:
   short_term:
-    - "Land a software engineering or ML internship"
+    - "Land a remote entry-level / junior software engineering or ML role (0-1 yr experience), workable from Chittagong"
+    - "Take on ML research / paper-writing roles (paid preferred, unpaid acceptable)"
     - "Ship and deploy the job-hunt automation pipeline"
     - "Publish or submit the urban vegetation ML research paper"
     - "Reach 100+ LeetCode problems solved in C++"
